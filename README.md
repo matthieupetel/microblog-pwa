@@ -6,13 +6,13 @@ It is forked from [this repo](https://github.com/octo-webf/microblog-pwa).
  
 All the steps of this course can be found as branches:  
 
-* [Start state](../tree/master)
-* [Step 1 - Install service worker](../tree/step-1-install-sw)
-* [Step 2 - Manifest](../tree/step-2-manifest)
-* [Step 3 - Offline appshell](../tree/step-3-offline-appshell)
-* [Step 4 - Offline messages](../tree/step-4-offline-messages)
-* [Step 5 - Client-side push notifications](../tree/step-5-client-side-push-notification)
-* [Step 6 - Save offline post messages](../tree/step-6-save-offline-post-message)
+* [Start state](https://github.com/matthieupetel/microblog-pwa/tree/master)
+* [Step 1 - Install service worker](https://github.com/matthieupetel/microblog-pwa/tree/step-1-install-sw)
+* [Step 2 - Manifest](https://github.com/matthieupetel/microblog-pwa/tree/step-2-manifest)
+* [Step 3 - Offline appshell](https://github.com/matthieupetel/microblog-pwa/tree/step-3-offline-appshell)
+* [Step 4 - Offline messages](https://github.com/matthieupetel/microblog-pwa/tree/step-4-offline-messages)
+* [Step 5 - Client-side push notifications](https://github.com/matthieupetel/microblog-pwa/tree/step-5-client-side-push-notification)
+* [Step 6 - Save offline post messages](https://github.com/matthieupetel/microblog-pwa/tree/step-6-save-offline-post-message)
 
 Switch between branches to navigate through the course:
 ```bash
