@@ -51,7 +51,7 @@ and go at `http://localhost:5000`.
 
 Kill the node process (mac os):
 ```bash
-ps -ef | grep node
+ps -ef | grep 'node dist/server.js'
 kill -9 [PROCESS_ID]
 ``` 
 
