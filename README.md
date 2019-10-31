@@ -28,7 +28,7 @@ Project setup
 You must have [node](https://nodejs.org/en/download/package-manager/) and 
 [Git](https://www.atlassian.com/git/tutorials/install-git) installed on your environment.
 
-###1. Clone or download this repo
+### 1. Clone or download this repo
 
 ```bash
 git clone https://github.com/matthieupetel/microblog-pwa.git
@@ -51,7 +51,7 @@ and go at `http://localhost:5000`.
 
 Kill the node process (mac os):
 ```bash
-ps -ef | grep node
+ps -ef | grep 'node dist/server.js'
 kill -9 [PROCESS_ID]
 ``` 
 
