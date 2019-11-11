@@ -29,7 +29,7 @@
               response.json().then((data) => {
                 console.log('Messages depuis le cache');
 
-                //Récupérer les messages ajouté en offline et les ajouté à la liste des messages visibles
+                //Récupérer les messages ajoutés en offline et les ajouter à la liste des messages visibles
                 IndexDB.getAllOfflineMessages((allOfflineMessages) => {
                   data = data.concat(allOfflineMessages);
                   this.messages = data.reverse();
