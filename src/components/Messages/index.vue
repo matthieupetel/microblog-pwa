@@ -64,7 +64,7 @@
               IndexDB.saveMessageOffline(this.pseudo, newValue);
 
               navigator.serviceWorker.ready.then((swRegistration) => {
-                console.log("register offline message sync")
+                console.log("register offline message sync");
                 return swRegistration.sync.register('offlineMessage');
               });
 

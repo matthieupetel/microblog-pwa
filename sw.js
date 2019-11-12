@@ -61,9 +61,9 @@ self.addEventListener('push', (event) => {
   // Configuration de la notification
   const title = 'Progressive Web App';
   const options = {
-    body : event.data.text(),
-    icon : '/static/img/app_icon/app_icon_96.png',
-    badge : '/static/img/app_icon/app_icon_96.png',
+    body: event.data.text(),
+    icon: '/static/img/app_icon/app_icon_96.png',
+    badge: '/static/img/app_icon/app_icon_96.png',
   };
 
   // Envoi de la notification à l'utilisateur
@@ -80,16 +80,16 @@ self.addEventListener('sync', function (event) {
       self.getAllOfflineMessages((messages) => {
         const fetchMessages = messages.map((message) => {
           const messageBody = {
-            author : message.author,
-            content : message.content
+            author: message.author,
+            content: message.content
           };
           //Refaire un post serveur pour chaque message
           fetch("https://microblog-api.herokuapp.com/api/messages", {
-            method : "post",
-            body : JSON.stringify(messageBody),
-            headers : {'Content-Type' : 'application/json'}
+            method: "post",
+            body: JSON.stringify(messageBody),
+            headers: {'Content-Type': 'application/json'}
           })
-        })
+        });
 
         //Quand tous les post seront terminés, nettoyer notre base de messages offline
         Promise.all(fetchMessages)
